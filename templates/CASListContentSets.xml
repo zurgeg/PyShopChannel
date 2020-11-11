@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<soapenv:Envelope xmlns:soapenv="http://schemas.xmlsoap.org/soap/envelope/"
+				  xmlns:xsd="http://www.w3.org/2001/XMLSchema"
+				  xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+<soapenv:Body>
+<ListContentSetsResponse xmlns="urn:cas.wsapi.broadon.com">
+<Version>2.0</Version>
+<DeviceId>*</DeviceId>
+<MessageId>ECDK-*-*</MessageId>
+<TimeStamp>*</TimeStamp>
+<ErrorCode>0</ErrorCode>
+<ListResultTotalSize>14</ListResultTotalSize>
+<Contents>
+<TitleId>*</TitleId>
+<Contents>
+<TitleIncluded>true</TitleIncluded>
+<ContentIndex>2</ContentIndex>
+</Contents>
+<Attributes>
+<Name>MaxUserInodes</Name>
+<Value>10</Value>
+</Attributes>
+<Attributes>
+<Name>etc</Name>
+<Value>etc</Value>
+</Attributes>
+<Attributes>
+<Name>itemComment</Name>
+<Value>*</Value>
+</Attributes>
+<Prices>
+<ItemId>*</ItemId>
+<Price>
+<Amount>*</Amount>
+<Currency>POINTS</Currency>
+</Price>
+<Limits>
+<Limits>0</Limits>
+<LimitKind>PR</LimitKind>
+</Limits>
+<LicenseKind>PERMANENT</LicenseKind>
+</Prices>
+</Contents>
+<Contents>
+<TitleId>*</TitleId>
+</ListContentSetsResponse>
+</soapenv:Body>
+</soapenv:Envelope>
