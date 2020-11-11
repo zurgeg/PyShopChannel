@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<soapenv:Envelope xmlns:soapenv="http://schemas.xmlsoap.org/soap/envelope/"
+				  xmlns:xsd="http://www.w3.org/2001/XMLSchema"
+				  xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+<soapenv:Body>
+<GetECConfigResponse xmlns="urn:ecs.wsapi.broadon.com">
+<Version>2.0</Version>
+<DeviceId>*</DeviceId>
+<MessageId>ECDK-*-*</MessageId>
+<TimeStamp>*</TimeStamp>
+<ErrorCode>0</ErrorCode>
+<ServiceStandbyMode>false</ServiceStandbyMode>
+<ContentPrefixURL>http://shop.wiilink24.com/contentprefixurl</ContentPrefixURL>
+<UncachedContentPrefixURL>http://shop.wiilink24.com/uncachedcontentprefixurl</UncachedContentPrefixURL>
+<SystemContentPrefixURL>http://shop.wiilink24.com/systemcontentprefixurl</SystemContentPrefixURL>
+<SystemUncachedContentPrefixURL>http://shop.wiilink24.com/systemuncachedcontentprefixurl</SystemUncachedContentPrefixURL>
+<EcsURL>http://shop.wiilink24.com/ecsurl</EcsURL>
+<IasURL>http://shop.wiilink24.com/iasurl</IasURL>
+<CasURL>http://shop.wiilink24.com/casurl</CasURL>
+<NusURL>http://shop.wiilink24.com/nusurl</NusURL>
+</GetECConfigResponse>
+</soapenv:Body>
+</soapenv:Envelope>
